@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    display: flex;
+}
+
+#sign-up{
+    display: block;
+    width: 60%;
+    background-color: #f4f4f4;
+}
+
+#image-holder{
+    position: relative;
+    width: 40%;
+    height: 100vh;
+    background-color: black;
+}
+
+#main-image{
+    width: 100%;
+    position: relative;
+}
+
+#reptile{
+    height: 100%;
+    width: 100%;
+}
+
+#logo-text{
+    width: 100%;
+    padding: 30px 0px;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    color: white;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(0, 0, 0, 0.3);
+}
+
+#introduction{
+    padding: 10% 5%;
+    line-height: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#form-header{
+    padding: 5px 0px 20px 0px;
+}
+
+#form-container{
+    padding: 5% 5%;
+    background-color: white;
+    box-shadow:0px 4px 3px #c1c1c1;
+}
+
+#form-input-container{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    
+}
+
+#create-account{
+    margin: 20px;
+    padding: 10px 40px;
+    font-weight: bold;
+    background-color: #2f580d;
+    color: #f2f2f2;
+    border-radius: 10px;
+}
+
+#create-account:hover{
+    cursor: pointer;
+    background-color: #5bae18;
+}
+
+.form-column{
+    margin: 10px 20px;
+}
+
+#log-in-text{
+    margin: 10px 20px;
+}
+
+a{
+    color: #2f580d;
+    text-decoration: none;
+}
+
+.form-input{
+    margin: 20px 0px;
+}
+
+.input-box:focus{
+    box-shadow: 3px 5px 10px #000000;
+    border:2px solid #698eff;
+}
+
+
+
+.error{
+}
+

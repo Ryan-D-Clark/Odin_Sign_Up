@@ -9,6 +9,61 @@
     <title>Clarks</title>
 </head>
 <body>
+    <div id="container">
+    <div id="image-holder">
+        <img id="reptile" src="./Images/chameleon.jpg" alt="Image of a Chameleon">
+        <h1 id="logo-text">Clark's Reptiles</h1>
+    </div>
+    <div id="sign-up">
+        <p id="introduction">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. <br> Sign up now to get started. <br><br> You know you want to.</p>
+        <form action="#" id="form-container">
+            <h2 id="form-header">Let's do this!</h2>
+            <div id="form-input-container">
+                <div class="form-column" id="left-column">
+                    
+                    <div class = "form-input">
+                        <label for="fname">FIRST NAME:</label><br>
+                        <input class="input-box" required type="text" id="fname" name="fname"><br>
+                    </div>
+
+                    <div class = "form-input">
+                        <label for="email">EMAIL:</label><br>
+                        <input class="input-box" required type="email" id="email" name="email"><br>
+                    </div>
+                    
+                    <div class = "form-input">
+                        <label for="password">PASSWORD:</label><br>
+                        <input class="error" class="input-box" required type="password" id="password" placeholder="Min 6 characters" name="password"><br>
+                    </div>
+
+                </div>
+                <div class="form-column" id="right-column">
+
+                    <div class = "form-input"> 
+                        <label for="lname">LAST NAME:</label><br>
+                        <input class="input-box" type="text" id="lname" name="lname"><br>
+                    </div>
+
+                    <div class = "form-input">
+                        <label for="mobile">PHONE NUMBER:</label><br>
+                        <input class="input-box" required pattern="[0-9]{11}" type="tel" id="mobile" name="mobile"><br>
+                    </div>
+
+                    <div class = "form-input">
+                        <label for="confirm-password">CONFIRM PASSWORD:</label><br>
+                        <input class = "error" class="input-box" required type="password" id="confirm-password" placeholder="Min 6 characters" name="confirm-password"><br>
+                    </div>
+
+                </div>
+            </div>
+        </form>
+
+        <button type="submit" form="form-container" id="create-account">Create Account</button>
+        <p id="log-in-text">Already have an account? <a href="">Log in</a></p>
+
+    </div>
+    </div>
+
     
 </body>
 </html>
