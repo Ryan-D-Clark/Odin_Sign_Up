@@ -87,7 +87,7 @@
 }
 
 #log-in-text{
-    margin: 10px 20px;
+    margin: 0px 20px;
 }
 
 a{
@@ -101,11 +101,23 @@ a{
 
 .input-box:focus{
     box-shadow: 3px 5px 10px #000000;
-    border:2px solid #698eff;
+    border:3px solid #698eff;
+}
+
+input:invalid:focus{
+    border: 3px solid red;
 }
 
 
 
+
+#error-message{
+    display: none;
+    color: red;
+    font-size: 12px;
+}
+
 .error{
+    border: 3px solid red;
 }
 
